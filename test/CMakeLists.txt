@@ -13,3 +13,7 @@ target_link_libraries(sz_demo SZ3)
 add_executable(sz_backend sz_backend.cpp)
 target_include_directories(sz_backend PRIVATE ${PROJECT_SOURCE_DIR}/include)
 target_link_libraries(sz_backend SZ3)
+
+add_executable(sz_backend_ae sz_backend_ae.cpp)
+target_include_directories(sz_backend_ae PRIVATE ${PROJECT_SOURCE_DIR}/include)
+target_link_libraries(sz_backend_ae SZ3)
