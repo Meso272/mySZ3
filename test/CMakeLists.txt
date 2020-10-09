@@ -1,6 +1,4 @@
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_FLAGS "-O3")
+
 
 add_executable(sz_huffman_test sz_huffman_test.cpp)
 target_include_directories(sz_huffman_test PRIVATE ${PROJECT_SOURCE_DIR}/include)
